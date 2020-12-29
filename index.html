@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta
+			name="description"
+			content="Mattybucks is a fictional establishment that serves coffee at no charge to their friends and neighbors within a small subdivision in the Midwest."
+		/>
+		<!-- for media query info-->
+		<meta name="viewport" content="width=device-width" , initial-scale="1.0" />
+		<!-- links for the stylesheets-->
+		<link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Josefin+Sans&display=swap" rel="stylesheet"/>
+		<link rel="stylesheet" type="text/css" href="vendors/vcss/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="vendors/vcss/grid.css" />
+		<script
+			src="https://kit.fontawesome.com/d7ed472bee.js"
+			crossorigin="anonymous"
+		></script>
+			<link rel="stylesheet" type="text/css" href="Resources/css/style.css" />
+
+		<title>MattyBucks | Best Roast in the Ridge</title>
+	</head>
+	<!-- BODY -->
+	<body>
+		<header>
+			<!--NAVIGATION BAR-->
+			<nav>
+				<div class="row">
+					<img
+						src="Resources/images/IMG_0657.JPG"
+						alt="MattyBucks logo"
+						class="logo"
+						width= 480
+						height= 480
+					/>
+					<ul class="main-nav">
+						<li>
+							<a href="index.html#order"><i class="fas fa-mug-hot"></i></a>
+						</li>
+						<li>
+							<a href="mailto: mwaggon624@gmail.com"
+								><i class="far fa-envelope"></i
+							></a>
+						</li>
+						<li>
+							<a href="tel:7347703554"><i class="fas fa-phone"></i></a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+			<div class="banner-text">
+				<h1>MattyBucks</h1>
+				<h2>Best Roast in the Ridge</h2>
+			</div>
+		</header>
+		<!-- MAIN -->
+		<main>
+			<!--SECTION - INFO-->
+			<section class="section-info">
+				<h2>Delicious Beverages in an Inviting and Relaxed Atmosphere</h2>
+				<img src="Resources/images/cup.jpg" alt="holding cup of coffee" width= 1240 height= 1653/>
+				<p class="long-copy">
+					MattyBucks is a premier coffeehouse providing delicious beverages in an inviting and relaxed atmosphere.  We understand that 2020 is a tough year and we welcome the opportunity to consistently provide a soothing and comforting environment in which our patrons can safely unwind and enjoy their favorite beverage with friends.  
+					<br>
+					<br>
+					We feel that a day without MattyBucks is a day wasted, which is why we are usually open every morning starting around 8:30am.  We work each morning to bring you a cup a cheer and help you get your day started right.  Need some cheer but can't make it to our coffeehouse? Drop us a line and we will work with our team of young delivery personnel to bring our cup of heaven to you (delivery tips are greatly appreciated).
+				</p>
+			</section>
+
+			<!--SECTION FORM-->
+			<section class="order-form" id="order">
+				<br>
+				<h2>how may we serve you today?</h2>
+				<div class="container">
+					<form action="https://formspree.io/f/xpzolvye" method="POST">
+						<div class="form-group">
+							<label for="firstName"><p>Name</p></label>
+							<input type="text" id="firstName" name="firstName" required>
+						</div>
+
+						<div class="form-group">
+							<label for="email"><p>Email</p></label>
+							<input type="email" id="email" name="email" required>
+						</div>
+						<br>
+
+						
+
+				<!--SEASONAL SPECIALS -->
+						<div class="form-group"><h2>Seasonal Specials</h2></div>
+						<div class="item seasonal-wrapper">	
+							<!-- <button type="button" class='box pumpkin-spice' name="Pumpkin Spice Latte">Pumpkin Latte<img src='Resources/images/pumpkin-spice.jpg' alt='pumpkin spice latte' width=200 height=200>
+								<input type="checkbox" class="checkbox" name="Pumpkin Spice Latte">
+								</input>
+							</button> -->
+
+							<button type="button" class='box christmas-cup' name="Cup o Christmas">Cup o' Christmas<img src='Resources/images/christmascup.jpg' alt='Cup of Christmas' width=200 height=220>
+								<input type="checkbox" class="checkbox" name="Cup o Christmas">
+								</input>
+							</button>
+							
+
+							<button type="button" class='box irish' name="Irish Coffee">Irish Coffee<img src='Resources/images/irish-coffee.jpg' alt='irish' width=200 height=200>
+								<input type="checkbox" class="checkbox" name="Irish Coffee">
+								</input>
+							</button>
+
+							<button type="button" class='box elf-delight' name="Elf Delight">Elf Delight<img src='Resources/images/elfdelight.jpg' alt='elf delight' width=300 height=363>
+								<input type="checkbox" class="checkbox" name="Elf Delight">
+								</input>
+							</button>
+						</div>
+
+				<!--DAILY SPECIALS -->
+						<div class="form-group "><h2>Daily Specials</h3></div>
+							<br>
+							<br>
+						<div class="item daily-wrapper">
+							<button type="button" class='box americano' name="Americano">Americano<img src='Resources/images/Americano.jpg' alt='americano' width=200 height=300>
+								<input type="checkbox" class="checkbox" name="Americano">
+								</input>	
+							</button>
+
+							<button type="button" class='box espresso' name="espresso">Espresso<img src='Resources/images/Americano.jpg' alt='americano'width=200 height=300>
+								<input type="checkbox" class="checkbox" name="espresso">
+								</input>								
+							</button>
+
+							<button type="button" class='box pour-over' name="pour-over">Pour-over Coffee<img src='Resources/images/Americano.jpg' alt='americano' width=200 height=300>
+								<input type="checkbox" class="checkbox" name="pour-over">
+								</input>	
+							</button>
+
+							<button type="button" class='box french-press' name="french-press">French Press<img src='Resources/images/Americano.jpg' alt='americano' width=200 height=300>
+								<input type="checkbox" class="checkbox" name="french-press">
+								</input>	
+							</button>
+
+							<button type="button" class='box macchiato' name="macchiato">Macchiato<img src='Resources/images/Americano.jpg' alt='americano' width=200 height=300>
+								<input type="checkbox" class="checkbox" name="macchiato">
+								</input>	
+							</button>
+
+							<button type="button" class='box mocha' name="caffe mocha">Caffe Mocha<img src='Resources/images/Americano.jpg' alt='americano' width=200 height=300>
+								<input type="checkbox" class="checkbox" name="caffe mocha">
+								</input>
+							</button>
+
+							<button type="button" class='box cappuccino' name="Cappuccino">Cappuccino<img src='Resources/images/Americano.jpg' alt='americano' width=200 height=300>
+								<input type="checkbox" class="checkbox" name="Cappuccino">
+								</input>
+							</button>
+
+							<button type="button" class='box latte' name="latte">Latte<img src='Resources/images/Americano.jpg' alt='americano' width=200 height=300>
+								<input type="checkbox" class="checkbox" name="latte">
+								</input>
+							</button>
+
+							<button type="button" class='box iced-coffee' name="iced-coffee">Iced Coffee<img src='Resources/images/iced coffee 400w.jpg' alt='iced coffee' width=200 height=252>
+								<input type="checkbox" class="checkbox" name="iced-coffee">
+								</input>	
+							</button>
+						</div>	
+						
+				<!--FLAVORS -->
+						
+						<div class="form-group" id="flavor"><h2>Flavors</h2></div>	
+						<div class="item flavors-wrapper">
+							<button type="button" class='box peppermint' name="peppermint">Peppermint<img src='Resources/images/peppermint.jpg' alt='peppermint' width=200 height=252>
+								<input type="checkbox" class="checkbox" name="peppermint">
+								</input>
+							</button>
+
+							<button type="button" class='box caramel' name="caramel">Caramel<img src='Resources/images/caramel.jpg' alt='caramel' width=200 height=266>
+								<input type="checkbox" class="checkbox" name="caramel">
+								</input>
+							</button>
+
+							<button type="button" class='box hazelnut' name="hazelnut">Hazelnut<img src='Resources/images/hazelnut.jpg' alt='hazelnut' width=200 height=200>
+								<input type="checkbox" class="checkbox" name="hazelnut">
+								</input>
+							</button>
+
+							<button type="button" class='box vanilla' name="vanilla">Vanilla<img src='Resources/images/vanilla.jpg' alt='vanilla' width=200 height=250>
+								<input type="checkbox" class="checkbox" name="vanilla">
+								</input>
+							</button>
+
+							<button type="button" class='box french-vanilla' name="french vanilla">French Vanilla<img src='Resources/images/french-vanilla.jpg' alt='french-vanilla' width=200 height=266>
+								<input type="checkbox" class="checkbox" name="french vanilla">
+								</input>
+							</button>	
+						</div>
+					
+
+			<!-- ADD-ONS-->
+						<div class="form-group" id="add-on"><h2>Add-ons</h2></div>
+						<div class="item addons-wrapper">	
+							<button type="button"class='box sugar' name="sugar">Sugar<img src='Resources/images/sugar2.png' alt='sugar'>
+								<input type="checkbox" class="checkbox" name="sugar">
+								</input>
+							</button>
+
+							<button type="button"class='box whip-cream' name="whip cream">Whip Cream<img src='Resources/images/whip-cream2.jpg' alt='whip cream'>
+								<input type="checkbox" class="checkbox" name="whip cream">
+								</input>
+							</button>
+
+							<button type="button"class='box heavy-cream' name="heavy cream">Heavy Cream<img src='Resources/images/heavy-cream.jpg' alt='heavy cream'>
+								<input type="checkbox" class="checkbox" name="heavy cream">
+								</input>
+							</button>
+
+							<button type="button"class='box milk' name="milk 1%">Milk 1%<img src='Resources/images/milk.jpg' alt='milk'>
+								<input type="checkbox" class="checkbox" name="milk 1%">
+								</input>
+							</button>
+
+							<button type="button"class='box milk2' name="milk 2%">Milk 2%<img src='Resources/images/milk2.jpg' alt='milk 2'>
+								<input type="checkbox" class="checkbox" name="milk 2%">
+								</input>
+							</button>	
+
+							<button type="button"class='box love' name="love">Love<img src='Resources/images/hearts.jpg' alt='heart'>
+								<input type="checkbox" class="checkbox" name="love">
+								</input>
+							</button>
+						</div>
+
+						<div class="form-group" id="add-on"><h2>Delivery</h2></div>
+							<div class="item delivery-wrapper">
+														<button type="button" class='box delivery' name="Delivery">Ridge Dash<img src='Resources/images/flash2.jpg' alt='irish' width=858 height=458>
+							<input type="checkbox" class="checkbox" name="Ridge Dash">
+							</input>
+							</button>
+							</div>	
+						
+
+						<div class="form-group">
+							<label for="comment"><p>Comments</p></label>
+							<textarea id="comment" name="comment" cols='10' rows='6'></textarea>
+						</div>
+					
+				
+						<button type="submit" value="Send">Submit</button>
+
+						<div id="status" class="success">Success</div>
+					</form>
+				</div>
+				
+			</section>			
+		</main>
+
+		<!-- FOOTER -->
+
+		<footer>
+			<div class="footer-nav">
+				<div>
+					<a href="mailto: athoune88@gmail.com"
+						><img
+							class="at-logo"
+							src="Resources/images/bluegreenlogo.JPG"
+							alt="autumn thoune logo"
+					/></a>
+				</div>
+			<!-- 	<div>
+					<ul>
+						<a>Created with joy &copy; 2020 Autumn Thoune</a>
+					</ul>
+				</div>
+			</div> -->
+		</footer>
+		<script src="resources\js\script.js"></script>
+	</body>
+</html>
