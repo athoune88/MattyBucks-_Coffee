@@ -40,7 +40,7 @@ h1 {
 	margin-bottom: 16px;
 	margin-top: 0;
 	color: rgba(255, 255, 255, 0.9);
-	font-size: 350%;
+	font-size: 300%;
 	word-spacing: 4px;
 	text-align: center;
 }
@@ -108,7 +108,7 @@ header {
 
 header h2 {
 	color: #999;
-	font-size: 175%;
+	font-size: 150%;
 	margin-top: 40px;
 }
 .logo {
@@ -183,7 +183,7 @@ SECTION - FORM
 			rgba(222, 160, 74, 0.2)
 		),
 		url('../images/coffeebeans.jpg');
-	background-size: auto;
+	background-size: 100vw;
 }
 
 form {
@@ -338,8 +338,8 @@ button[type='button']:active {
 	font-family: 'Josefin Sans', sans-serif;
 	text-align: center;
 	/* padding: 20%; */
-	height: 260px;
-	width: 200px;
+	height: 220px;
+	width: 150px;
 	font-size: 125%;
 	border-radius: 15%;
 	border: 1 px solid #444;
@@ -349,7 +349,7 @@ button[type='button']:active {
 
 .box img {
 	height: 200px;
-	width: 200px;
+	width: 125px;
 	border-radius: 8px;
 }
 
@@ -449,7 +449,7 @@ footer p {
 }
 
 .at-logo {
-	height: 100px;
+	height: 80px;
 }
 
 a {
